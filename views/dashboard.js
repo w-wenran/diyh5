@@ -12,8 +12,8 @@ define([],function(){
         view:"carousel",
         height:160,
         cols:[
-            { css: "image", template:img, data:{src:"imgs/1.jpg", title: ""} },
             { css: "image", template:img, data:{src:"imgs/2.jpg", title: ""} },
+            { css: "image", template:img, data:{src:"imgs/1.jpg", title: ""} },
             { css: "image", template:img, data:{src:"imgs/3.jpg", title: ""} },
             { css: "image", template:img, data:{src:"imgs/4.jpg", title: ""} },
             { css: "image", template:img, data:{src:"imgs/c1.jpg", title: ""} },
