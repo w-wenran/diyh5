@@ -23,10 +23,7 @@ define([],function(){
     };
 
     var layout = {
-        view:"scrollview",
-        scroll:"y",
-        body:{
-            css:"bg",
+            id:"dashboard",
             margin:15,
             type:"clean",
             rows:[
@@ -79,12 +76,11 @@ define([],function(){
                         html+="<p>"+obj.desc+"</p>"
                         return html;
                     },
-                    data: {name: "联系方式",desc:"联系电话：15887049205 王老师<br/>"}
+                    data: {name: "联系方式",desc:"联系电话：15887049205 王老师<br/>" +
+                    "地址：昆明市五华区茭菱路经典双城A区7栋602(正大家乐福，高新一小，西山一中，丰宁小区)"}
                 }
             ]
-        }
-
-    }
+    };
 
     return {
         $ui:layout,

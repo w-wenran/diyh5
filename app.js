@@ -10,7 +10,7 @@ define(["libs/core"],function(core){
         name:"Webix admin",
         version:"0.10",
         debug:"true",
-        start:"/view/dashboard"
+        start:"/page"
     });
 
     return app;
